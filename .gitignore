@@ -1,0 +1,6 @@
+.DS_Store
+Thumbs.db
+node_modules/
+*.zip
+# Documentos internos (proposta comercial, pendências) não entram no repositório
+ENTREGA.md

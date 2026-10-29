@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Página não encontrada | Rolé Potyguar</title>
+  <meta name="description" content="Essa página não existe. Volte para o início do Rolé Potyguar.">
+  <meta name="robots" content="noindex, follow">
+  <meta name="theme-color" content="#0B1014">
+  <link rel="icon" type="image/png" sizes="64x64" href="/favicon.png">
+  <link rel="stylesheet" href="/css/styles.css">
+  <style>
+    .nf { min-height: 100svh; display: grid; place-items: center; text-align: center; padding: 3rem var(--gutter); position: relative; overflow: hidden; }
+    .nf__logo { width: min(260px, 60vw); margin: 0 auto 2.5rem; }
+    .nf h1 { font-size: clamp(2rem, 1.2rem + 4vw, 3.75rem); max-width: 16ch; margin: 0 auto; }
+    .nf p { color: var(--rp-cinza); margin: 1.25rem auto 2rem; max-width: 40ch; }
+    .nf__sun { position: absolute; width: clamp(220px, 34vw, 420px); left: 50%; bottom: 0; transform: translate(-50%, 55%); opacity: .9; pointer-events: none; }
+    .nf__inner { position: relative; z-index: 1; }
+  </style>
+</head>
+<body>
+  <main class="nf">
+    <div class="nf__inner">
+      <a href="/" aria-label="Rolé Potyguar — voltar ao início"><img class="nf__logo" src="/assets/img/logo-rp.webp" alt="Rolé Potyguar" width="800" height="343"></a>
+      <h1 class="display">Esse rolé <span class="hl">não existe.</span></h1>
+      <p>A página que você procurou não está aqui. O melhor do Rio Grande do Norte começa pelo início.</p>
+      <a class="btn btn--primary" href="/">Voltar ao início</a>
+    </div>
+    <img class="nf__sun" src="/assets/img/ilustra-sol.webp" alt="" width="577" height="577" aria-hidden="true">
+  </main>
+</body>
+</html>

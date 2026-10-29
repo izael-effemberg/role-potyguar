@@ -1,0 +1,10 @@
+# Rolé Potyguar
+# Acesso liberado para buscadores e assistentes de IA (GEO).
+# Para bloquear um robô específico de IA, adicione por exemplo:
+# User-agent: GPTBot
+# Disallow: /
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.rolepotyguar.com.br/sitemap.xml
